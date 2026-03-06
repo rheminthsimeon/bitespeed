@@ -36,7 +36,7 @@ prisma/          # Prisma schema and migrations
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/rheminthsimeon/bitespeed.git
 cd bitespeed
 ```
 
@@ -97,12 +97,12 @@ Consolidates contact information.
 To verify the implementation, import the following scenarios into Postman:
 
 ### Example 1: New Contact
-- **Endpoint**: `POST /identify`
+- **Endpoint**: `POST url/identify`
 - **Body**: `{"email": "lorraine@hillvalley.edu", "phoneNumber": "123456"}`
 - **Expected**: A new primary contact is created.
 
 ### Example 2: Same Phone, Different Email
-- **Endpoint**: `POST /identify`
+- **Endpoint**: `POST url/identify`
 - **Body**: `{"email": "mcfly@hillvalley.edu", "phoneNumber": "123456"}`
 - **Expected**: A secondary contact is created linking to the primary from Example 1. Both emails appear in the response.
 
