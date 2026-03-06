@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import identityRoutes from './routes/identityRoutes.js';
+import identityRoutes from './routes/identityRoutes';
 
 const app = express();
 

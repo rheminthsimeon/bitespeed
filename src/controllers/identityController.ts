@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { IdentityService } from '../services/identityService.js';
+import { IdentityService } from '../services/identityService';
 
 const identityService = new IdentityService();
 

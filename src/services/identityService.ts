@@ -1,4 +1,4 @@
-import prisma from '../db/prisma.js';
+import prisma from '../db/prisma';
 import { Precedence, Contact } from '@prisma/client';
 
 export interface IdentityResponse {
